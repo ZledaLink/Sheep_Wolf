@@ -2475,3 +2475,77 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.11-00.56.11:951][808]LogHttp: Warning: 00000B0BA036AA00: libcurl info message cache 34 (Closing connection)
 [2024.03.11-00.56.11:951][808]LogHttp: Warning: 00000B0BA036AA00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
 [2024.03.11-00.56.11:951][808]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9AD9367B-4DFF-1CBC-DFBF-A68F9C9C4D2A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f4c6d13c4d3a78c3d45de8b3284943a8%7Cea12ca9ac6ab4665b670642b83bd4cce%7C255db62f-7ae3-4d40-8dfe-01222b594ff1&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.11-00.58.53:543][728]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Planet.BP_Planet
+[2024.03.11-00.58.53:547][728]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-00.58.53:547][728]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-00.58.57:526][147]BlueprintLog: New page: BP_Planet 컴파일
+[2024.03.11-00.58.57:653][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.11-00.58.58:439][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.58.58:594][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Planet" FILE="../../../../../../Users/PC/Documents/Unreal Projects/Sheep_Wolf/Content/Blueprints/BP_Planet.uasset" SILENT=true
+[2024.03.11-00.58.58:646][198]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Planet
+[2024.03.11-00.58.58:646][198]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Sheep_Wolf/Saved/BP_PlanetB9DD82E347C2741B5B471C9698BE582B.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Sheep_Wolf/Content/Blueprints/BP_Planet.uasset'
+[2024.03.11-00.58.58:655][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 1.01 sec)
+[2024.03.11-00.58.58:658][198]AssetCheck: New page: 에셋 저장:  BP_Planet
+[2024.03.11-00.58.58:658][198]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Blueprints/BP_Planet.BP_Planet 유효성 검사 중
+[2024.03.11-00.58.59:298][237]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-00.58.59:364][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Map_01" FILE="../../../../../../Users/PC/Documents/Unreal Projects/Sheep_Wolf/Content/Maps/Map_01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.11-00.58.59:415][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.11-00.58.59:450][237]LogSavePackage: Moving output files for package: /Game/Maps/Map_01
+[2024.03.11-00.58.59:450][237]LogSavePackage: Moving '../../../../../../Users/PC/Documents/Unreal Projects/Sheep_Wolf/Saved/Map_013CF0FBBE4774596EEBF0F696DEAB6C04.tmp' to '../../../../../../Users/PC/Documents/Unreal Projects/Sheep_Wolf/Content/Maps/Map_01.umap'
+[2024.03.11-00.58.59:458][237]LogFileHelpers: Saving map 'Map_01' took 0.095
+[2024.03.11-00.58.59:464][237]LogFileHelpers: InternalPromptForCheckoutAndSave took 166 ms (total: 1.17 sec)
+[2024.03.11-00.58.59:466][237]AssetCheck: New page: 에셋 저장:  Map_01
+[2024.03.11-00.58.59:466][237]LogContentValidation: Display: /Script/Engine.World /Game/Maps/Map_01.Map_01 유효성 검사 중
+[2024.03.11-00.58.59:944][279]LogDebuggerCommands: Repeating last play command: 시뮬레이트
+[2024.03.11-00.58.59:957][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.11-00.58.59:957][279]PIE: New page: SIE 세션: Map_01 (2024. 3. 11. 오후 6:58:59)
+[2024.03.11-00.58.59:958][279]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_01
+[2024.03.11-00.58.59:966][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008269s)
+[2024.03.11-00.58.59:966][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_01.Map_01 to /Game/Maps/UEDPIE_0_Map_01.Map_01 (0.008313s)
+[2024.03.11-00.58.59:977][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.03.11-00.58.59:978][279]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.11-00.58.59:978][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.11-00.58.59:979][279]LogAIModule: Creating AISystem for world Map_01
+[2024.03.11-00.58.59:979][279]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2024.03.11-00.58.59:979][279]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.03.11-00.58.59:979][279]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.11-00.58.59:979][279]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.11-00.58.59:979][279]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.11-00.58.59:979][279]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.11-00.58.59:979][279]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.11-00.58.59:979][279]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.11-00.58.59:979][279]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.11-00.58.59:979][279]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.11-00.58.59:980][279]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.11-00.58.59:980][279]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.11-00.58.59:980][279]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.11-00.58.59:982][279]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.11-00.59.00:006][279]LogAudioMixer: Display: Using Audio Hardware Device VSO273-100(NVIDIA High Definition Audio)
+[2024.03.11-00.59.00:007][279]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.11-00.59.00:007][279]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.11-00.59.00:007][279]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.11-00.59.00:009][279]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.03.11-00.59.00:009][279]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.03.11-00.59.00:011][279]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.03.11-00.59.00:011][279]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.03.11-00.59.00:011][279]LogInit: FAudioDevice initialized with ID 3.
+[2024.03.11-00.59.00:011][279]LogAudio: Display: Audio Device (ID: 3) registered with world 'Map_01'.
+[2024.03.11-00.59.00:011][279]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.11-00.59.00:017][279]LogLoad: Game class is 'GameModeBase'
+[2024.03.11-00.59.00:020][279]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_01.Map_01 up for play (max tick rate 0) at 2024.03.11-09.59.00
+[2024.03.11-00.59.00:020][279]LogWorld: Bringing up level for play took: 0.002735
+[2024.03.11-00.59.00:024][279]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.03.11-00.59.00:028][279]PIE: 서버가 로그인했습니다.
+[2024.03.11-00.59.00:029][279]PIE: 에디터에서 플레이 총 시작 시간 0.078초입니다.
+[2024.03.11-00.59.01:587][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-00.59.01:587][387]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_01
+[2024.03.11-00.59.01:589][387]LogWorld: UWorld::CleanupWorld for Map_01, bSessionEnded=true, bCleanupResources=true
+[2024.03.11-00.59.01:590][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-00.59.01:630][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.11-00.59.01:634][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.11-00.59.01:645][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.11-00.59.01:646][387]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.11-00.59.01:646][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.11-00.59.01:665][387]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.11-00.59.01:687][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.03.11-00.59.01:743][388]LogPlayLevel: Display: Destroying online subsystem :Context_16
